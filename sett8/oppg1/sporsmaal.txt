@@ -1,0 +1,8 @@
+1. Dersom en variabel er satt til private vil den kun kunne brukes i klassen den er definert i. Den kan derfor ikke brukes i subclasses.
+2. I dette tilfellet består en person av noen som har et navn og en alder. Både studenten og læreren innfrir disse kravene. En student mottar derimot ikke lønn, og en lærer får ikke eksamensresultater. Begge disse subclassene har en er-en-relasjon til person-klassen, da de begge er en person. I mellom seg har de en har-en-relasjon, der en student kan ha en til flere lærere og en lærer kan ha en til flere elever.
+3. //Dette forstod jeg ikke. Se mer på up-casting og down-casting.
+4. Private kan kun brukes i klassen det brukes i. Public variables kan brukes overalt. Protected variables kan brukes i subclasses og i packagen den er definert i.
+5. // må se mer på packages for å skjønne dette.
+6. Done did
+7. Den første fordelen med @Override er at kompilatoren faktisk sjekker om en metode overrides. Den andre fordelen er at det gjør koden din enklere å lese.
+8. 

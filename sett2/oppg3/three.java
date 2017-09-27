@@ -1,0 +1,1 @@
+//i++ er verdien før den inkrementeres mens ++i er verdien etter at den har blitt inkrementert. Dette har ofte ikke noe å si da inkrementering ofte følges av et semikolon, men dersom det kommer mer kode etterpå kan det være et problem. 

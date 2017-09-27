@@ -1,0 +1,9 @@
+1. Det finnes fire forskjellige heltall/integers i Java:
+	a. byte: En byte består som oftest av 8 bits og er i de fleste datamaskiner den minste mengden minne som kan adresseres.
+	b. short: En short består av to bytes(16bit). Byte og short brukes som oftest for å lagre plass i store ting som arrays.
+	c. int: 4 bytes(32bit) og det som vanligvis brukes.
+	d. long: 8 bytes(64bit) og brukes kun når int sin rekkevidde ikke er tilgjengelig. 
+2. ?????????????
+3. Java bruker to forskjellige typer for å representere desimaltall: float og double. Float er 4 bytes lang, mens double er 8 bytes lang. Dette fører til at float er rask og unøyaktig, mens double er treg og nøyaktig.
+4. Char trenger ikke representere negative tall fordi klassen bruker Unicode-tabellen, som er en standardisert tabell som assosierer et positivt heltall med hvert tegn. 
+5. ASCII er kun 1 byte og inneholder 256 tegn. UNICODE er 2 bytes, der de første 256 tegnene er identiske med ASCII. Java bruker Unicode i char.

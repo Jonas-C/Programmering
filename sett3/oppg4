@@ -1,0 +1,21 @@
+1. I og med at vi bruker GOTO istedenfor if/else her vil vi ikke automatisk hoppe over FALSE-segmentet. Vi må derfor manuelt legge inn et instruksjonshopp.
+2. Hensikten med AFTER_IFELSE er å ha noe å hoppe til etter at if/else-statementet er fullført. Dersom if-delen av statementet fullføres må man ha et sted å hoppe til for å unngå else-delen.
+3. Man trenger ikke en GOTO-instruksjon etter line 8 fordi AFTER_IFELSE er det som naturlig kommer etter linje 8.
+4. Vi trenger disse for å kunne gi instruksjoner om hvor man skal hoppe basert på verdien man har.
+
+1: int i = 0
+
+2: if(i < 15) goto TRUE_SEGMENT;
+3: if(!i <15) goto FALSE_SEGMENT;
+
+4: TRUE_SEGMENT:
+5:	printf("Fullført loop \r\n");
+6:	goto AFTER_IFELSE;
+
+7: FALSE_SEGMENT:
+8:	printf(i);
+9:	i++;
+10: goto 2;
+
+11: AFTER_IFELSE:
+12:	printf("");

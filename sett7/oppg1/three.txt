@@ -1,0 +1,1 @@
+Kun ett objekt, str2 referer til objektet som ble opprettet i str1.

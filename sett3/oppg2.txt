@@ -1,0 +1,5 @@
+1. Instruksjonssegmentet inneholder instruksjonene til programmet, mens datasegmentet inneholder programmets variabler. 
+2.?
+3. Et betinget hopp går ut på at man hopper til en spesifikk instruksjon basert på utfallet av et boolsk utsagn. Et ubetinget hopp kan for eksempel være goto-funksjonen, som ikke støttes i java. // linje 3: goto 5;
+4. Goto-funksjonen går ut på at en instruksjon ber programtelleren om å hoppe til en annen verdi. Dette støttes ikke i java, og erstattes dermed av if/else, for og while. if/else vil utføre et instruksjonshopp forover i instruksjonssekvensen basert på utkommet av en boolsk variabel. for- og while-loops vil hoppe tilbake i instruksjonssekvensen.
+5. ?

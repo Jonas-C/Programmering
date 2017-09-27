@@ -1,0 +1,4 @@
+1. Vi kan ikke lage objekter av person fordi det er en abstrakt klasse.
+2. En klasse er abstrakt dersom den enten er oppgitt som en abstrakt klasse eller om den inneholder minst en abstrakt metode.
+3. //usikker på hvordan dette er ordlagt.
+4. basert på vil være den enkleste måten å forklare subklasser under en abstrakt klasse på. En abstrakt klasse er som et template.
